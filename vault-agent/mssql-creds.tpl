@@ -1,0 +1,1 @@
+Server=10.200.1.42;Database=testdb;User Id={{ with secret "mssql/static-creds/mssql-static" }}{{ .Data.username }}{{ end }};Password={{ with secret "mssql/static-creds/mssql-static" }}{{ .Data.password }}{{ end }};
