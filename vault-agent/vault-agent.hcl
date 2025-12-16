@@ -22,7 +22,7 @@ template {
 }
 
 vault {
-  address = "https://acfaria-hcp-vault-public-vault-600d9107.85bae10f.z1.hashicorp.cloud:8200"
+  address = "<VAULT_ADDR>"
 }
 
 listener "tcp" {
